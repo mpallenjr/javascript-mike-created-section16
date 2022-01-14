@@ -1,4 +1,4 @@
-
+/*
 
 // LECTURE: Values and Variables
 // 1. Declare variables called 'country', 'continent' and 'population' and
@@ -73,4 +73,4 @@ let desctiption = country + " is in " + continent + ", and its " + population + 
 console.log(desctiption)
 
 
-
+*/
