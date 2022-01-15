@@ -16,3 +16,35 @@
 // m tall.
 // GOOD LUCK � 
 
+let markMass;
+let markHeight;
+let johnMass;
+let johnHeight;
+
+
+
+markMass = 78;
+markHeight = 1.69;
+
+johnMass = 92;
+johnHeight = 1.95;
+
+let markBmi = markMass / markHeight ** 2;
+let johnBmi = johnMass / johnHeight ** 2;
+
+
+console.log("Data 1:", markBmi, johnBmi)
+console.log(markBmi > johnBmi)
+
+markMass = 95;
+markHeight = 1.88;
+
+johnMass = 85;
+johnHeight = 1.76;
+
+markBmi = markMass / markHeight ** 2;
+johnBmi = johnMass / johnHeight ** 2;
+
+console.log("Data 2:", markBmi, johnBmi)
+console.log(markBmi > johnBmi)
+
